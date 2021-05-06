@@ -1,0 +1,52 @@
+
+
+$bg-color: gray;
+$color-font : red;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: $bg-color;
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: f;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    h1 {
+        background-color: white;
+        font-size: 15rem - 5rem;
+
+        h1:hover{
+            background-color: hotpink;
+        }
+    }
+
+    
+    h2{
+        margin: 30px;
+        padding: 20px;
+        color: $color-font;
+    
+        h2:hover{
+            font-size: 2rem;
+        }
+    }
+
+    
+
+    p{
+        font-size: 5rem;
+   
+        p:hover{
+            background-color: green;
+        }
+    }
+    
+}

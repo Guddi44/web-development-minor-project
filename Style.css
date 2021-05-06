@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: gray;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: f;
+  place-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main h1 {
+  background-color: white;
+  font-size: 10rem;
+}
+
+.main h1 h1:hover {
+  background-color: hotpink;
+}
+
+.main h2 {
+  margin: 30px;
+  padding: 20px;
+  color: red;
+}
+
+.main h2 h2:hover {
+  font-size: 2rem;
+}
+
+.main p {
+  font-size: 5rem;
+}
+
+.main p p:hover {
+  background-color: green;
+}
+/*# sourceMappingURL=Style.css.map */
+
+
